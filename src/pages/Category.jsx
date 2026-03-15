@@ -99,7 +99,8 @@ export default function Category() {
           addTransaction(
             category.id,
             type,
-            Number(amount)
+            Number(amount),
+            description
           );
 
           setAmount("");
