@@ -15,6 +15,7 @@ export default function Category() {
 
   const [amount, setAmount] = useState("");
   const [type, setType] = useState("expense");
+  const [description, setDescription] = useState("");
 
   const category = data.categories.find(
     c => c.id === Number(id)
