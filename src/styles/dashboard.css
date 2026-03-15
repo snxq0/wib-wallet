@@ -1,0 +1,28 @@
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 16px;
+}
+
+.balance-card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.balance-title {
+  font-size: 14px;
+  color: gray;
+}
+
+.balance-amount {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

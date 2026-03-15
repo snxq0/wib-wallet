@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  background: #1c1c1e;
+  color: white;
+}
+
+/* container */
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* title */
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* balance */
+
+.balance {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* cards */
+
+.card {
+  background: #2c2c2e;
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* text */
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-sub {
+  color: #9e9ea0;
+  font-size: 14px;
+}
+
+/* buttons */
+
+button {
+  background: #3a3a3c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #48484a;
+}
+
+/* inputs */
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #2c2c2e;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* transaction */
+
+.transaction {
+  background: #2c2c2e;
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}

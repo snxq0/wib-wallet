@@ -1,0 +1,20 @@
+.category-card {
+  background: white;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.category-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.category-remaining {
+  margin-top: 6px;
+  color: gray;
+}
+
+.category-delete {
+  float: right;
+  cursor: pointer;
+}
