@@ -107,7 +107,7 @@ export default function Category() {
         <div
           key={t.id}
           style={{
-            background: "white",
+            background: "#2b2b2b",
             padding: 12,
             borderRadius: 10,
             marginBottom: 10,
