@@ -66,10 +66,9 @@ export default function Category() {
 
        <input type="text"
         placeholder="Description"
-        value={data.description}
+        value={description}
         onChange={(e) => {
-          data.description = e.target.value;
-          localStorage.setItem("financeData", JSON.stringify(data));
+          setDescription(e.target.value);
         }}
        />
 
