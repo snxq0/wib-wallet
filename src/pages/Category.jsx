@@ -129,7 +129,9 @@ export default function Category() {
 
           <div>
             {t.type === "income" ? "+" : "-"}
+            <div></div>
             {t.description}
+            <div></div>
             {t.amount} €
           </div>
 
