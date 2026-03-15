@@ -33,6 +33,12 @@ export default function AddTransaction({ categoryId, addTransaction, onClose }) 
             onChange={(e) => setAmount(e.target.value)}
           />
 
+          <input type="text"
+            placeholder="Description"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+          />
+
           <div className="transaction-type">
 
             <button

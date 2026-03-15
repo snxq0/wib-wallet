@@ -54,9 +54,10 @@ export function FinanceProvider({ children }) {
 
     const newTransaction = {
       id: Date.now(),
-      categoryId,
+      categoryId: currentCategory,
       type,
       amount,
+      description: data.description,
       date: new Date().toISOString()
     };
 
