@@ -54,7 +54,7 @@ export function FinanceProvider({ children }) {
 
     const newTransaction = {
       id: Date.now(),
-      categoryId: currentCategory,
+      categoryId,
       type,
       amount,
       description: data.description,
