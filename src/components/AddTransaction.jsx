@@ -3,6 +3,7 @@ import "../styles/modal.css";
 
 export default function AddTransaction({ categoryId, addTransaction, onClose }) {
 
+  const [description, setDescription] = useState("");
   const [amount, setAmount] = useState("");
   const [type, setType] = useState("expense");
 
@@ -11,9 +12,10 @@ export default function AddTransaction({ categoryId, addTransaction, onClose }) 
 
     if (!amount) return;
 
-    addTransaction(categoryId, type, Number(amount));
+    addTransaction(categoryId, type, Number(amount), description);
 
     setAmount("");
+    setDescription("");
     onClose();
   }
 
