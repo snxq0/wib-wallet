@@ -50,14 +50,14 @@ export function FinanceProvider({ children }) {
 
   }
 
-  function addTransaction(categoryId, type, amount) {
+  function addTransaction(categoryId, type, amount, description) {
 
     const newTransaction = {
       id: Date.now(),
       categoryId,
       type,
       amount,
-      description: data.description,
+      description,
       date: new Date().toISOString()
     };
 
