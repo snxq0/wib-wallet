@@ -56,12 +56,23 @@ export default function Category() {
 
       <h3>Add transaction</h3>
 
+
       <input
         type="number"
         placeholder="Amount"
         value={amount}
         onChange={(e) => setAmount(e.target.value)}
       />
+
+       <input type="text"
+        placeholder="Description"
+        value={data.description}
+        onChange={(e) => {
+          data.description = e.target.value;
+          localStorage.setItem("financeData", JSON.stringify(data));
+        }}
+       />
+
 
       <div style={{ marginTop: 10 }}>
 
