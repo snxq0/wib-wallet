@@ -23,7 +23,7 @@ export default function Dashboard() {
       </div>
 
       <div className="balance">
-        {totalBalance} €
+        {totalBalance.toFixed(2)} €
       </div>
 
       {data.categories.map(c => {
